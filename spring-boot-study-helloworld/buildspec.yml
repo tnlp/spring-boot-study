@@ -19,3 +19,5 @@ artifacts:
   files:
     - spring-boot-study-helloworld/target/*.jar
   discard-paths: yes
+  
+  
