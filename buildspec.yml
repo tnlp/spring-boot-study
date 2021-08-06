@@ -14,10 +14,10 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package -Dmaven.test.skip=true -f spring-boot-study-helloworld/pom.xml
+      - mvn package -Dmaven.test.skip=true 
 artifacts:
   files:
-    - spring-boot-study-helloworld/target/*.jar
+    - target/*.jar
   discard-paths: yes
   
   
